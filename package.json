@@ -1,0 +1,25 @@
+{
+  "name": "bonjour-service",
+  "version": "0.0.1",
+  "description": "Bonjour microservice running on NodeJS integrated with the Vert.x event bus",
+  "private": true,
+  "homepage": "https://github.com/redhat-reactive-msa/bonjour",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/redhat-reactive-msa/bonjour.git"
+  },
+  "author": "developer@redhat.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/redhat-reactive-msa/bonjour/issues"
+  },
+  "dependencies": {
+    "sockjs-client": "1.0.0",
+    "vertx3-eventbus-client": "3.2.1",
+    "app-config": "0.1.5"
+  },
+  "main": "bonjour-service.js",
+  "scripts": {
+    "start": "node bonjour-service.js"
+  }
+}
