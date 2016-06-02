@@ -1,3 +1,3 @@
 module.exports = {
-    bridge: 'http://frontend-reactive-msa.rhel-cdk.10.1.2.2.xip.io/eventbus/'
-}
+    bridge: 'http://' + process.env.FRONTEND_SERVICE_HOST + ':8080/eventbus'
+};

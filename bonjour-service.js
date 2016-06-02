@@ -3,7 +3,6 @@ var config = require('app-config');
 
 
 console.log("Event bus bridge location: " + config.eventbus.bridge);
-//TODO use name resolution to find the gateway
 var eb = new EventBus(config.eventbus.bridge);
 
 eb.onopen = function () {
